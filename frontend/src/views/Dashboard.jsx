@@ -49,7 +49,7 @@ const Dashboard = () => {
         </p>
 
         {/* Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           
           {/* Antes de la PC */}
           <div
@@ -64,6 +64,21 @@ const Dashboard = () => {
             </p>
             <div className="mt-6 text-blue-400 font-semibold flex items-center gap-2">
               Comenzar →
+            </div>
+          </div>
+
+          {/* Verificar compatibilidad */}
+          <div
+            onClick={() => navigate('/compatibility')}
+            className="cursor-pointer bg-gray-900 border border-gray-800 hover:border-purple-500 rounded-2xl p-8 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-purple-500/10 text-left"
+          >
+            <div className="text-5xl mb-6">🔍</div>
+            <h3 className="text-2xl font-bold mb-3">Verificar compatibilidad</h3>
+            <p className="text-gray-400 leading-relaxed">
+              Ya tengo algunos componentes en mente y quiero saber si son compatibles entre sí antes de comprar.
+            </p>
+            <div className="mt-6 text-purple-400 font-semibold flex items-center gap-2">
+              Verificar →
             </div>
           </div>
 
