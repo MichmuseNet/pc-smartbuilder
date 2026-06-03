@@ -1,10 +1,6 @@
-# Python
 venv/
+node_modules/
 __pycache__/
 *.pyc
-*.pyo
 .env
-
-# Node
-node_modules/
 dist/
