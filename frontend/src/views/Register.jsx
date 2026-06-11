@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { API_BASE_URL } from '../config';
-
+// Formulario de registro de usuario con validación de datos, manejo de estados de carga y error, integración con el backend para crear una nueva cuenta, y redirección a la página de login después de un registro exitoso, utilizando Tailwind CSS para el diseño y estilos modernos
 const Register = () => {
   const navigate = useNavigate();
   const [status, setStatus] = useState(null);

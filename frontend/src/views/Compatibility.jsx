@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { API_BASE_URL } from '../config';
 import ReactMarkdown from 'react-markdown';
-
+//Formulario de verificación de compatibilidad de componentes de PC, que permite al usuario ingresar o seleccionar sus componentes actuales o planeados, y luego envía esta información al backend para recibir un análisis detallado de compatibilidad, mostrando los resultados en formato Markdown con estilos modernos utilizando Tailwind CSS, e incluyendo explicaciones y recomendaciones para resolver cualquier problema de incompatibilidad detectado
 const componentOptions = {
   cpu: [
     'Intel Core i3-12100',

@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { API_BASE_URL } from '../config';
 import ReactMarkdown from 'react-markdown';
-
+// Historial de todos los análisis, recomendaciones y verificaciones de compatibilidad realizadas por el usuario, con una interfaz de pestañas para filtrar por tipo de análisis, mostrando detalles en formato Markdown al hacer clic en cada entrada, utilizando Tailwind CSS para el diseño y estilos modernos, e incluyendo indicadores visuales para la puntuación del sistema y la compatibilidad de componentes.
 const History = () => {
   const navigate = useNavigate();
   const [activeTab, setActiveTab] = useState('recommendations');

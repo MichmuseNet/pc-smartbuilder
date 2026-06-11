@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { API_BASE_URL } from '../config';
-
+// Formulario de inicio de sesión
 const Login = () => {
   const navigate = useNavigate();
   const [status, setStatus] = useState(null);

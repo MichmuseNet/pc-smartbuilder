@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { API_BASE_URL } from '../config';
 import ReactMarkdown from 'react-markdown';
-
+//Formulario de diagnóstico de PC que permite al usuario ingresar las especificaciones de su sistema, enviar esta información al backend para recibir un análisis detallado del estado de su PC, mostrando una puntuación general y recomendaciones personalizadas en formato Markdown, utilizando Tailwind CSS para el diseño y estilos modernos, e incluyendo una sección de ayuda para que el usuario sepa cómo obtener sus especificaciones fácilmente. Además, se muestra un indicador visual del estado del sistema basado en la puntuación obtenida, con colores y mensajes claros para facilitar la comprensión del resultado. El usuario también tiene la opción de realizar un nuevo análisis o ver su historial de diagnósticos anteriores.
 const Diagnostics = () => {
   const navigate = useNavigate();
   const [loading, setLoading] = useState(false);

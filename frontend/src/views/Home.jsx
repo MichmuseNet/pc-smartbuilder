@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom';
-
+//Página de bienvenida con botones de login/register, descripción de la aplicación y características principales, utilizando Tailwind CSS para el diseño y estilos modernos, con navegación fluida entre las diferentes secciones de la página y redirección a las páginas de login y registro al hacer clic en los botones correspondientes
 const Home = () => {
   const navigate = useNavigate();
 

@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { API_BASE_URL } from '../config';
 import ReactMarkdown from 'react-markdown';
-
+//Formulario de recomendación de PC que guía al usuario a través de un proceso de selección de uso, presupuesto, preferencias de marca y especificaciones avanzadas, con integración al backend para generar recomendaciones personalizadas basadas en sus respuestas, y muestra los resultados en formato Markdown con estilos modernos utilizando Tailwind CSS
 const Recommendation = () => {
   const navigate = useNavigate();
   const [step, setStep] = useState(1);

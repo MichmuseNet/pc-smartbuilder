@@ -11,7 +11,7 @@ import Recommendation from './views/Recommendation.jsx'
 import Compatibility from './views/Compatibility.jsx'
 import Diagnostics from './views/Diagnostics.jsx'
 import History from './views/History.jsx'
-
+//Monta React, define todas las rutas de la aplicación utilizando React Router, incluyendo rutas para Home, Login, Register, Dashboard, Recommendation, Compatibility, Diagnostics y History, y renderiza la aplicación en el elemento con id 'root' del DOM
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>

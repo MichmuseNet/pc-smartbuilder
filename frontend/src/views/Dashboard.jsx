@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import { useEffect, useState } from 'react';
-
+// Menú principal tras el login, con opciones para armar una PC, verificar compatibilidad o analizar el sistema, además de un enlace al historial de análisis, utilizando Tailwind CSS para el diseño y estilos modernos, y mostrando el nombre del usuario logueado en la barra de navegación
 const Dashboard = () => {
   const navigate = useNavigate();
   const [user, setUser] = useState(null);

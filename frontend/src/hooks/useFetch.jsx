@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-
+//Hook reutilizable para hacer peticiones GET
 const useFetch = (url) => {
     const [loading, setLoading] = useState(false);
     const [data, setData] = useState(null);
